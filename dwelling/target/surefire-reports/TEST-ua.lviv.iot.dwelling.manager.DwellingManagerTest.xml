@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ua.lviv.iot.dwelling.manager.DwellingManagerTest" time="0.033" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ua.lviv.iot.dwelling.manager.DwellingManagerTest" time="0.038" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Bohdan\AppData\Local\Temp\surefire13658641629871269628\surefirebooter1994151658431159415.jar C:\Users\Bohdan\AppData\Local\Temp\surefire13658641629871269628 2020-03-14T21-40-38_498-jvmRun1 surefire15770306959328018719tmp surefire_016624810677095852575tmp"/>
+    <property name="sun.java.command" value="C:\Users\Bohdan\AppData\Local\Temp\surefire1630822567628250172\surefirebooter15447142443653887675.jar C:\Users\Bohdan\AppData\Local\Temp\surefire1630822567628250172 2020-03-16T20-06-30_355-jvmRun1 surefire16592119649847496529tmp surefire_07459062062116753740tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\pr\third_lab\dwelling\target\test-classes;D:\pr\third_lab\dwelling\target\classes;C:\Users\Bohdan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Bohdan\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Bohdan\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Bohdan\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Bohdan\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Bohdan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Bohdan\AppData\Local\Temp\surefire13658641629871269628\surefirebooter1994151658431159415.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bohdan\AppData\Local\Temp\surefire1630822567628250172\surefirebooter15447142443653887675.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -55,6 +55,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="testFormingPropositions" classname="ua.lviv.iot.dwelling.manager.DwellingManagerTest" time="0.025"/>
-  <testcase name="testFormingPropositionsByDistanceInMetersToAllBuildingsOfInfrastructure" classname="ua.lviv.iot.dwelling.manager.DwellingManagerTest" time="0.001"/>
+  <testcase name="testFormingPropositions" classname="ua.lviv.iot.dwelling.manager.DwellingManagerTest" time="0.004"/>
+  <testcase name="testFormingPropositionsByDistanceInMetersToAllBuildingsOfInfrastructure" classname="ua.lviv.iot.dwelling.manager.DwellingManagerTest" time="0.02"/>
 </testsuite>
