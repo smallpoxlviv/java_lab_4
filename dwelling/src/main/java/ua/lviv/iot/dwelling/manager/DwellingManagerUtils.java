@@ -23,11 +23,11 @@ public class DwellingManagerUtils {
         Comparator<AbstractDwelling> comparator = new Comparator<AbstractDwelling>() {
             @Override
             public int compare(AbstractDwelling firstDwelling, AbstractDwelling secondDwelling) {
-                if ((firstDwelling.getPriceInUSD() - secondDwelling.getPriceInUSD()) != 0) {
-                    return (int) (firstDwelling.getPriceInUSD() - secondDwelling.getPriceInUSD());
-                } else {
-                    return (int) (firstDwelling.getAreaInSquareMeters() - secondDwelling.getAreaInSquareMeters());
+                double priceComparisonResult = firstDwelling.getPriceInUSD() - secondDwelling.getPriceInUSD();
+                if (priceComparisonResult != 0) {
+                    return (int) priceComparisonResult;
                 }
+                return (int) (firstDwelling.getAreaInSquareMeters() - secondDwelling.getAreaInSquareMeters());
             }
         };
         dwellings.sort(sortType == SortType.ASC ? comparator : comparator.reversed());
