@@ -23,9 +23,8 @@ public class DwellingManagerUtils {
         Comparator<AbstractDwelling> comparator = new Comparator<AbstractDwelling>() {
             @Override
             public int compare(AbstractDwelling firstDwelling, AbstractDwelling secondDwelling) {
-                double priceComparisonResult = firstDwelling.getPriceInUSD() - secondDwelling.getPriceInUSD();
-                if (priceComparisonResult != 0) {
-                    return (int) priceComparisonResult;
+                if ((firstDwelling.getPriceInUSD() - secondDwelling.getPriceInUSD()) != 0) {
+                    return (int) (firstDwelling.getPriceInUSD() - secondDwelling.getPriceInUSD());
                 } else {
                     return (int) (firstDwelling.getAreaInSquareMeters() - secondDwelling.getAreaInSquareMeters());
                 }
